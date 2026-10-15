@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 1: Pengenalan Konsep VPS & Cloud</title>
+    <style>
+        /* Reset & Pengaturan Dasar */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 12px;
+            line-height: 1.5;
+        }
+
+        .sheet-container {
+            max-width: 100%;
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        /* Bagian Judul Sesuai Foto */
+        .phase-title {
+            color: #d48806; /* Warna kuning kecoklatan khas judul */
+            font-size: 1.15rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .instruction {
+            font-size: 0.9rem;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        /* Tata Letak Kotak-kotak (Grid 2 Kolom di Layar Lebar, 1 Kolom di HP) */
+        .box-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* Desain Kotak Mirip Lembar Isian */
+        .answer-box {
+            background: #fff;
+            border: 2px solid #222;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .box-header {
+            background-color: #f1f1f1;
+            padding: 10px 12px;
+            font-weight: bold;
+            font-size: 0.95rem;
+            border-bottom: 1px solid #222;
+            color: #111;
+        }
+
+        .box-content {
+            padding: 12px;
+            font-size: 0.85rem;
+            color: #333;
+            background-color: #fafafa;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sheet-container">
+        <!-- Judul & Instruksi dari Foto -->
+        <div class="phase-title">Fase 1: Pengenalan Konsep VPS & Cloud</div>
+        <div class="instruction">
+            Jelaskan secara singkat pemahaman Anda mengenai perbedaan layanan berikut dengan mengisi kotak yang tersedia.
+        </div>
+
+        <!-- Daftar Kotak Jawaban -->
+        <div class="box-grid">
+            
+            <!-- Kotak 1: Shared Hosting -->
+            <div class="answer-box">
+                <div class="box-header">Shared Hosting</div>
+                <div class="box-content">
+                    Layanan hosting di mana satu server fisik digunakan bersama-sama oleh banyak pengguna. Sumber daya (RAM, CPU, storage) dibagi bersama, harganya terjangkau namun performa bisa terpengaruh jika website lain menggunakan banyak resource.
+                </div>
+            </div>
+
+            <!-- Kotak 2: Dedicated Server -->
+            <div class="answer-box">
+                <div class="box-header">Dedicated Server</div>
+                <div class="box-content">
+                    Layanan penyewaan satu server fisik secara utuh khusus untuk satu pengguna saja tanpa dibagi dengan orang lain. Menawarkan performa maksimal, kontrol penuh, dan keamanan tingkat tinggi, namun dengan biaya yang relatif mahal.
+                </div>
+            </div>
+
+            <!-- Kotak 3: Amazon Lightsail -->
+            <div class="answer-box">
+                <div class="box-header">Amazon Lightsail</div>
+                <div class="box-content">
+                    Layanan cloud komputasi dari AWS untuk pemula atau skala kecil-menengah. Menyediakan virtual private server (VPS) dengan harga tetap (flat-rate) yang mencakup penyimpanan, transfer data, dan RAM, sehingga sangat mudah digunakan.
+                </div>
+            </div>
+
+            <!-- Kotak 4: Amazon EC2 -->
+            <div class="answer-box">
+                <div class="box-header">Amazon EC2</div>
+                <div class="box-content">
+                    Layanan cloud komputasi skala enterprise dari AWS yang menyediakan kapasitas virtual server fleksibel dan dapat diatur sesuai kebutuhan. Sangat skalabel untuk aplikasi besar, namun membutuhkan keahlian teknis lebih tinggi.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
